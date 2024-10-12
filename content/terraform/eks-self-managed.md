@@ -1,7 +1,7 @@
 +++
 title = 'Eks Self Managed'
 date = 2024-10-12T10:00:02Z
-draft = true
+draft = false
 +++
 
 ### Creating a Self-Managed Node Group in EKS to Handle Spot Instance Unavailability
