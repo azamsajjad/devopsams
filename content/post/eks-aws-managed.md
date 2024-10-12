@@ -1,5 +1,5 @@
 +++
-title = 'Eks Aws Managed'
+title = 'EKS AWS Managed NodeGroups'
 date = 2024-10-12T09:58:37Z
 draft = false
 +++

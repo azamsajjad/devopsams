@@ -1,5 +1,5 @@
 +++
-title = 'Eks Self Managed'
+title = 'EKS Self Managed NodeGroups'
 date = 2024-10-12T10:00:02Z
 draft = false
 +++
