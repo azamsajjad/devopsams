@@ -3,6 +3,7 @@ version: 0.2
 environment_variables:
   plaintext:
     HUGO_VERSION: "0.135.0"
+    CLOUDFRONT_DISTRIBUTION_ID: "E23EF90GW6755B"
 
 phases:
   install:
@@ -18,6 +19,7 @@ phases:
       - rm -rf public
       - hugo
       - aws s3 sync public/ s3://devopsams.com/ --region us-east-1 --delete
+      - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
   post_build:
     commands:
       - echo "Build Completed on `date`"
