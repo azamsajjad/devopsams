@@ -17,7 +17,7 @@ phases:
   build:
     commands:
       - rm -rf public
-      - hugo -D
+      - hugo
       - aws s3 sync public/ s3://devopsams.com/ --region us-east-1 --delete
       - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
   post_build:
