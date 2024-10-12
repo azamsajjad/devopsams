@@ -11,7 +11,7 @@ phases:
       - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz
       - tar zxvf hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz
       - mv hugo /usr/bin/hugo
-      - cd ~
+      - cd -
       - rm -rf /tmp/*
   build:
     commands:
