@@ -47,6 +47,9 @@ Resources:
                 - 's3:PutObject'
                 - 's3:DeleteObject'
                 - 's3:ListBucket'
+                - 'cloudfront:CreateInvalidation'
+                - 'cloudfront:GetDistribution'
+                - 'cloudfront:GetInvalidation'
                 Effect: Allow
                 Resource: '*'
   CodeBuildSecurityGroup:
