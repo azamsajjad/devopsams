@@ -9,12 +9,12 @@ tags = [
     "iam"
 ]
 categories = ["aws"]
-thumbnail = "images/building.png"
+thumbnail = "images/aws.png"
 +++
 # AWS Identity and Access Management (IAM)
 
 IAM allows you to manage users and their level of access to the AWS console. It provides centralized control over your AWS account and offers various features that help secure and manage access to AWS resources.
-
+<!--more-->
 ## Key Features of IAM
 
 1. **Centralized Control**

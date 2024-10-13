@@ -6,15 +6,19 @@ description = "Sample article showcasing basic Markdown syntax and formatting fo
 featured = true
 tags = [
     "terraform",
+    "kubernetes",
     "featured"
 ]
-categories = ["terraform"]
-thumbnail = "images/building.png"
+categories = ["terraform", "kubernetes"]
+thumbnail = "images/kubernetes.png"
 +++
+### Creating a EKS Cluster with AWS-Managed Node Groups
+> **USE CASE**:
+> Create All Necessory Infrastructure for EKS Managed Kubernetes Cluster with Terraform.
 
-## Creating a EKS Cluster with AWS-Managed Node Groups
-
+<!--more-->
 Creating an Amazon EKS (Elastic Kubernetes Service) cluster can be streamlined using Terraform. Below is a comprehensive example of how to set up an EKS cluster along with necessary configurations for logging, IAM roles, and access entries.
+
 
 ### Terraform Code
 

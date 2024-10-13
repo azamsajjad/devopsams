@@ -150,17 +150,17 @@ blogDir = "post"
 
 # website author
 [author]
-name = "Jane Doe"
+name = "SAMS"
 # photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
 enable = false # to enable plausible analytics set to true.
-websiteDomain = "example.com" # domain name of your website, most cases same as your base url
+websiteDomain = "devopsams.com" # domain name of your website, most cases same as your base url
 # plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is self hosted
 # scriptName = "plausible" # default is set to plausible, only required if using a custom name for script
 
 [matomo_analytics]
 enable = false # To enable matomo analytics change to `true`.
-websiteDomain = "example.com" # Set the domain name of your website, in most cases same as your base URL this is required.
-matomoDomain = "matomo.example.com" # Set to Matomo domain
+websiteDomain = "devopsams.com" # Set the domain name of your website, in most cases same as your base URL this is required.
+# matomoDomain = "matomo.example.com" # Set to Matomo domain
 matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked

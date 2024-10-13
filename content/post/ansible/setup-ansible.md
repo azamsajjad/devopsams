@@ -9,12 +9,12 @@ tags = [
     "linux"
 ]
 categories = ["ansible"]
-thumbnail = "images/building.png"
+thumbnail = "images/redhat.png"
 +++
 # Ansible Control Node Installation & Configuration
 
 This guide walks through the steps for installing and configuring an Ansible control node, managing static and dynamic inventories, and defining groups of hosts.
-
+<!--more-->
 ## 1. Install Required Packages
 
 When setting up an Ansible control node, ensure that the necessary packages are installed. Depending on your environment, follow the appropriate steps below.

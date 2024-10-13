@@ -9,14 +9,12 @@ tags = [
     "iam"
 ]
 categories = ["aws"]
-thumbnail = "images/building.png"
+thumbnail = "images/aws.png"
 +++
 
 # Amazon Cognito Overview
-
-## What is Amazon Cognito?
 Amazon Cognito is a fully managed service that simplifies authentication for mobile and web applications, providing secure authorization for users. It enables users to access AWS resources after successfully authenticating with a web-based identity provider (IdP) such as Facebook, Amazon, or Google.
-
+<!--more-->
 ### Benefits of Using Amazon Cognito
 - **Identity Federation:** Allows users to log in through various third-party IdPs, enhancing user experience and flexibility.
 - **User Management:** Manages user registration, authentication, and account recovery.

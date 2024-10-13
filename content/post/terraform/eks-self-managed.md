@@ -6,18 +6,17 @@ description = "Sample article showcasing basic Markdown syntax and formatting fo
 featured = true
 tags = [
     "terraform",
+    "kubernetes",
     "featured"
 ]
-categories = [
-    "terraform"
-]
-series = ["Themes Guide"]
-aliases = ["migrate-from-jekyl"]
-thumbnail = "images/building.png"
+categories = ["terraform", "kubernetes"]
+thumbnail = "images/kubernetes.png"
 +++
+### Self-Managed Node Group in EKS to Handle Spot Instance Unavailability
+> **USE CASE**:
+> Ensure that On-Demand Instances are automatically used if Spot Instances become unavailable.
 
-### Creating a Self-Managed Node Group in EKS to Handle Spot Instance Unavailability
-
+<!--more-->
 In this post, I’ll explain how I created a self-managed node group in Amazon EKS (Elastic Kubernetes Service). My goal was to ensure that **on-demand instances** are automatically used if **spot instances** become unavailable. Let’s dive into the details!
 ### Limitations of Managed Node Groups in EKS
 
