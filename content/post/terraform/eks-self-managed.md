@@ -2,6 +2,18 @@
 title = 'EKS Self Managed NodeGroups'
 date = 2024-10-12T10:00:02Z
 draft = false
+description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+featured = true
+tags = [
+    "terraform",
+    "featured"
+]
+categories = [
+    "terraform"
+]
+series = ["Themes Guide"]
+aliases = ["migrate-from-jekyl"]
+thumbnail = "images/building.png"
 +++
 
 ### Creating a Self-Managed Node Group in EKS to Handle Spot Instance Unavailability

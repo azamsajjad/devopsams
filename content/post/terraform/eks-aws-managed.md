@@ -2,6 +2,14 @@
 title = 'EKS AWS Managed NodeGroups'
 date = 2024-10-12T09:58:37Z
 draft = false
+description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+featured = true
+tags = [
+    "terraform",
+    "featured"
+]
+categories = ["terraform"]
+thumbnail = "images/building.png"
 +++
 
 ## Creating a EKS Cluster with AWS-Managed Node Groups
