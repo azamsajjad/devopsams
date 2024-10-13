@@ -11,6 +11,7 @@ Hi, I'm S Azam Sajjad, a passionate DevOps Engineer with over 10 years of experi
 On this blog, I document my journey, share best practices, and troubleshoot issues I encounter in the fast-paced DevOps world. I believe in continuous learning, and I'm always excited to share what I learn with others in the community. Whether you're just getting started with DevOps or are looking to deepen your understanding, you'll find plenty of tips, tutorials, and real-world solutions here.
 
 Let’s connect!  
+- **LinkedIn**: [linkedin.com/in/azamsajjad](https://linkedin.com/in/azamsajjad) 
 - **GitHub**: [github.com/azamsajjad](https://github.com/azamsajjad)  
 - **GitHub**: [github.com/azam-sajjad](https://github.com/azam-sajjad)  
 - **Website**: [azamsajjad.com](https://azamsajjad.com)  
