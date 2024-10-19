@@ -7,7 +7,7 @@ featured = false
 tags = [
     "kubernetes"
 ]
-categories = ["kubernetes"]
+categories = ["containers"]
 thumbnail = "images/kubernetes.png"
 +++
 ## Role-Based Access Control in Kubernetes

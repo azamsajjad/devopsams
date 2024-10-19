@@ -11,16 +11,16 @@
   url = "categories/aws"
   weight = -109
 [[main]]
-  name = "Ansible"
-  url = "categories/ansible"
+  name = "Linux"
+  url = "categories/linux"
   weight = -108
 [[main]]
-  name = "Terraform"
-  url = "categories/terraform"
+  name = "Containers"
+  url = "categories/containers"
   weight = -107
 [[main]]
-  name = "Kubernetes"
-  url = "categories/kubernetes"
+  name = "IAAC"
+  url = "categories/iaac"
   weight = -106
 [[main]]
   name = "CICD"

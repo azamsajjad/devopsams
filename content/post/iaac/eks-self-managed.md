@@ -9,7 +9,7 @@ tags = [
     "kubernetes",
     "featured"
 ]
-categories = ["terraform", "kubernetes"]
+categories = ["containers", "iaac"]
 thumbnail = "images/kubernetes.png"
 +++
 ### Self-Managed Node Group in EKS to Handle Spot Instance Unavailability
