@@ -10,7 +10,7 @@ tags = [
     "featured"
 ]
 categories = ["containers", "iaac"]
-thumbnail = "images/kubernetes.png"
+thumbnail = "images/kubernetes-terraform.png"
 +++
 ### Creating a EKS Cluster with AWS-Managed Node Groups
 > **USE CASE**:
