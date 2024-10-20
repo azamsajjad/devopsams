@@ -1,9 +1,9 @@
 +++
 title = 'Comprehensive Guide to Logging in Linux Environments'
-date = 2024-10-12T09:58:37Z
+date = 2024-10-20T09:58:37Z
 draft = false
 description = "Comprehensive Guide to Logging in Linux Environments."
-featured = true
+featured = false
 tags = [
     "linux",
     "aws"
