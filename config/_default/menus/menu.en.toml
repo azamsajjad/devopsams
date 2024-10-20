@@ -22,10 +22,6 @@
   name = "IAAC"
   url = "categories/iaac"
   weight = -106
-[[main]]
-  name = "CICD"
-  url = "categories/cicd"
-  weight = -105
 # social menu links
 
 [[social]]
