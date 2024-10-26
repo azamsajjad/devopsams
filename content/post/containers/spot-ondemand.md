@@ -1,12 +1,11 @@
 +++
-title = 'Critical Workloads on ON_DEMAND Nodes'
+title = 'Critical Workloads on ON-DEMAND Nodes'
 date = 2024-10-26T10:00:02Z
 draft = false
 description = "Critical Workloads on ON_DEMAND Nodes."
-featured = true
+featured = false
 tags = [
-    "kubernetes",
-    "featured"
+    "kubernetes"
 ]
 categories = ["containers"]
 thumbnail = "images/kubernetes.png"
