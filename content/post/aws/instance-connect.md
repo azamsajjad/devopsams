@@ -1,6 +1,6 @@
 +++
 title = 'AWS EC2 Instance Connect & Bastion Host'
-date = 2024-10-12T09:58:37Z
+date = 2024-10-21T09:58:37Z
 draft = false
 description = "AWS EC2 Instance Connect & Bastion Host."
 featured = false
