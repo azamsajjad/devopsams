@@ -1,8 +1,8 @@
 +++
 title = 'Critical Workloads on ON-DEMAND Nodes'
-date = 2024-10-26T10:00:02Z
+date = 2024-10-25T10:00:02Z
 draft = false
-description = "Critical Workloads on ON_DEMAND Nodes."
+description = "Critical Workloads on ON-DEMAND Nodes."
 featured = false
 tags = [
     "kubernetes"
@@ -10,9 +10,12 @@ tags = [
 categories = ["containers"]
 thumbnail = "images/kubernetes.png"
 +++
-### Optimizing Application Scalability with AWS Spot Instances
+## Optimizing Application High Availability
+> **USE CASE**:
+> Ensure that Critical Backend Workloads run on On-Demand Instances.
+
+<!--more-->
 If you’re looking to scale your application nodes while keeping costs in check, AWS Spot Instances might be your best bet. In this guide, we’ll explore how to leverage these instances effectively.
-<!-- more -->
 
 #### Understanding AWS Instance Types
 
@@ -53,11 +56,9 @@ locals {
     #!/bin/bash
     export KUBECONFIG=/root/.kube/config
     REGION=us-east-1
-    sleep 60
     INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
     NODE_NAME=$(aws ec2 describe-instances --instance-ids $INSTANCE_ID --region $REGION --query 'Reservations[0].Instances[0].PrivateDnsName' --output text)
     NODE_TYPE=$(curl -s --fail http://169.254.169.254/latest/meta-data/instance-life-cycle) 
-    sleep 60
     /usr/local/bin/kubectl label nodes $NODE_NAME eks.amazonaws.com/capacityType=$NODE_TYPE
   EOF
 }

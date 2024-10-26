@@ -106,11 +106,9 @@ locals {
     #!/bin/bash
     export KUBECONFIG=/root/.kube/config
     REGION=us-east-1
-    sleep 60
     INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
     NODE_NAME=$(aws ec2 describe-instances --instance-ids $INSTANCE_ID --region $REGION --query 'Reservations[0].Instances[0].PrivateDnsName' --output text)
-    sleep 60
-    /usr/local/bin/kubectl label nodes $NODE_NAME ${var.NODE_GROUP}=exists
+    /usr/local/bin/kubectl label nodes $NODE_NAME ${var.NODE_GROUP}=workload
   EOF
 }
 ```
