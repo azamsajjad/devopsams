@@ -1,5 +1,5 @@
 +++
-title = 'AWS EC2 Instance Connect & Bastion Host'
+title = 'Zero Trust Bastion Host - Teleport'
 date = 2025-03-08T09:58:37Z
 draft = false
 description = "AWS EC2 Bastion Host."
@@ -9,7 +9,7 @@ tags = [
     "ec2"
 ]
 categories = ["aws"]
-thumbnail = "images/aws.png"
+thumbnail = "images/teleport.png"
 +++
 # Manage Application Access With Zero Trust Bastion - Teleport 🚀
 
