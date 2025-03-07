@@ -1,6 +1,6 @@
 +++
 title = 'Zero Trust Bastion Host - Teleport'
-date = 2025-03-08T09:58:37Z
+date = 2025-03-07T09:58:37Z
 draft = false
 description = "AWS EC2 Bastion Host."
 featured = false
